@@ -23,4 +23,4 @@ spec:
               requests:
                 storage: 30Gi
           # --- TARGET 1: New Storage Class Name ---
-            storageClassName: 'coe-netapp-san' # <-- REPLACE with your actual StorageClass name
+            storageClassName: 'odf-replica-two-block' # <-- REPLACE with your actual StorageClass name
