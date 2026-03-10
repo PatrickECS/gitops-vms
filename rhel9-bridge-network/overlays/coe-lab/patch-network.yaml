@@ -2,7 +2,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   # The name must match the VirtualMachine you are patching
-  name: rguske-rhel9-bridge-gitops-vm1
+  name: rguske-rhel9-bridge-gitops
 spec:
   # --- TARGET 1: Network Interface and Network Definition Names ---
   template:
