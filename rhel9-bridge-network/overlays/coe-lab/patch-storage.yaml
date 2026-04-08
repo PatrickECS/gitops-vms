@@ -18,4 +18,4 @@ spec:
             requests:
               storage: 60Gi
           # --- TARGET 1: New Storage Class Name ---
-          storageClassName: "odf-replica-two-block" # <-- REPLACE with your actual StorageClass name
+          storageClassName: "ocs-storagecluster-ceph-rbd-virtualization" # <-- REPLACE with your actual StorageClass name
